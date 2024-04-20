@@ -1,0 +1,81 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.main-header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.main-nav .nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.main-nav .nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-nav .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav .nav-list a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.button {
+    padding: 10px 15px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #5cb85c; /* Bootstrap 'success' color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-danger {
+    background-color: #d9534f; /* Bootstrap 'danger' color */
+}
+
+.button-update {
+    background-color: #f0ad4e; /* Bootstrap 'warning' color */
+}
+
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+    /* Removed the 'position: absolute' and 'bottom: 0' */
+    width: 100%;
+}
+
+html, body {
+    height: 100%; /* Make sure the body takes up full viewport height */
+    margin: 0; /* Reset default margin */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Use flex column layout */
+}
+
+
+
+
+
